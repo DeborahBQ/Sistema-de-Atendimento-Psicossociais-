@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Centro comunitário distribuindo amor</title>
+</head>
+<body>
+    <div class="sidebar">
+        
+        <h2>Distribuindo Amor</h2>
+        <nav>
+         <ul>
+            <li><a href="#form">Cadastro</a></li>
+             <li><a href="#lista">Lista</a></li>
+             <li><a href="#">Contato</a></li>
+            </ul>
+             <p>Somos um centro comunitário com o objetivo de espalhar amor pelo mundo e contribuir na saúde mental que é tão importante!
+              Precisa de ajuda? Entre em contato conosco!
+              Temos atendimento psicossocial gratuito e acessível a todos.
+            </p>
+     </nav>
+  </div>
+
+  <div class="main-content">
+    <header>
+      <img src="Imagem.jpeg" alt="banner do site" class="banner">
+    </header>
+
+    <section id="form">
+      <h2 class="titulo">Cadastro de Atendimento</h2>
+      <form id="atendimento-form">
+      Nome do paciente: <input type="text" id="nome" placeholder="Nome do Paciente" required>
+        Nome do profissional:<input type="text" id="profissional" placeholder="Profissional Responsável" required>
+        Digite a data:<input type="date" id="data" required>
+       Escolha uma opção: <select id="tipo">
+          <option value="Psicológico">Psicológico</option>
+          <option value="Pedagógico">Pedagógico</option>
+          <option value="Assistência Social">Assistência Social</option>
+        </select>
+        <textarea id="observacoes" placeholder="Observações"></textarea>
+        <button type="submit" class="enviar">Enviar</button>
+      </form>
+    </section>
+
+        <section id="lista">
+      <h2>Lista de Atendimentos</h2>
+      <div id="lista-atendimentos"></div>
+      <footer>Desenvolvido por: Deborah Queiroz, Isabela Marques e Thayuany Rodrigues - 2025</footer>
+    </section>
+  </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="dist/main.js"></script>
+</body>
+</html> 
